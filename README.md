@@ -28,6 +28,17 @@ The **Breast Cancer Prediction** project is a deep learning-based web applicatio
    pip install -r requirements.txt
    ```
 
+## Model Training
+
+To retrain the model using new data:
+
+1. Place your dataset in the correct directory.
+2. Run the training script:
+   ```bash
+   python train_model.py
+   ```
+3. The trained model will be saved as `breast_cancer_cnn_model.h5`.
+
 ## Usage
 
 1. **Run the web application:**
@@ -41,17 +52,6 @@ The **Breast Cancer Prediction** project is a deep learning-based web applicatio
 3. **Upload an image:**
    - Click on the upload section and select a mammogram image.
    - Click the "Analyze Image" button to get the prediction.
-
-## Model Training
-
-To retrain the model using new data:
-
-1. Place your dataset in the correct directory.
-2. Run the training script:
-   ```bash
-   python train_model.py
-   ```
-3. The trained model will be saved as `breast_cancer_cnn_model.h5`.
 
 ## File Descriptions
 
