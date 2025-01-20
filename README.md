@@ -13,7 +13,7 @@ The **Breast Cancer Prediction** project is a deep learning-based web applicatio
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Breast_Cancer_Prediction.git
+   git clone https://github.com/iyad-khalil/Breast_Cancer_Prediction.git
    cd Breast_Cancer_Prediction
    ```
 
