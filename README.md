@@ -30,14 +30,13 @@ The **Breast Cancer Prediction** project is a deep learning-based web applicatio
 
 ## Model Training
 
-To retrain the model using new data:
+To train the model 
 
-1. Place your dataset in the correct directory.
-2. Run the training script:
+1. Run the training script:
    ```bash
    python train_model.py
    ```
-3. The trained model will be saved as `breast_cancer_cnn_model.h5`.
+2. The trained model will be saved as `breast_cancer_cnn_model.h5`.
 
 ## Usage
 
